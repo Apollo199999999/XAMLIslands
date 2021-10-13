@@ -22,16 +22,19 @@ namespace MyUWPApp
     /// </summary>
     public sealed partial class BlankPage1 : Page
     {
-        public static Button ButtonPress { get; set; }
-        public static ListView FilesListView { get; set; }
+        public static Button ShowFoldersBtn { get; set; }
+        public static ListView FoldersListView { get; set; }
+        public static Button ShowMsgBoxBtn { get; set; }
         public BlankPage1()
         {
             this.InitializeComponent();
 
             //assign the controls to their respective variables so that it can be accessed in the wpf window and controlled from there
-            ButtonPress = ShowFilesBtn;
+            ShowFoldersBtn = FoldersShowBtn;
+            FoldersListView = ListFoldersView;
+            ShowMsgBoxBtn = ShowMessageBoxButton;
 
         }
-        
+
     }
 }

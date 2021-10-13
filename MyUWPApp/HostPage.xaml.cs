@@ -22,11 +22,13 @@ namespace MyUWPApp
     /// </summary>
     public sealed partial class HostPage : Page
     {
+        public static Frame frame { get; set; }
         public HostPage()
         {
             this.InitializeComponent();
-            NavView.SelectedItem = Page1;
-            contentFrame.Navigate(typeof(BlankPage1));
+
+            //assign the controls to their respective variables so that it can be accessed in the wpf window and controlled from there
+            frame = contentFrame;
         }
 
         private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
@@ -51,6 +53,12 @@ namespace MyUWPApp
 
                 }
             }
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            //navigate to blankpage1
+            NavView.SelectedItem = Page1;
         }
     }
 }
