@@ -7,9 +7,7 @@
         xmlns:XamlHost="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost" x:Class="XAMLIslands.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Loaded="Grid_Loaded">
-
-        <XamlHost:WindowsXamlHost InitialTypeName="MyUWPApp.HostPage" ChildChanged="WindowsXamlHost_ChildChanged" Loaded="WindowsXamlHost_Loaded"/>
-
+    <Grid>
+        <XamlHost:WindowsXamlHost InitialTypeName="MyUWPApp.HostPage" ChildChanged="WindowsXamlHost_ChildChanged"/>
     </Grid>
 </Window>

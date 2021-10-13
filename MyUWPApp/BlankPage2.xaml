@@ -6,9 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="822" Width="1300">
 
     <Grid>
         <TextBlock Text="Sample Page 2" FontWeight="Bold" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="WPFWindowOpenBtn" Content="Open a WPF Window" Margin="10,118,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

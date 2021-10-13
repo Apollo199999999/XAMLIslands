@@ -120,3 +120,5 @@ C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\BlankPage2.xbf
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\BlankPage3.xbf
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\SettingsPage.xbf
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\WPFTestWindow.g.cs
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\WPFTestWindow.baml

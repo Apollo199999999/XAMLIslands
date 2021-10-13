@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\App.xaml
-11407045341
+2-1975381777
 
-6126149380
+7381770399
 2831585111010
-MainWindow.xaml;
+MainWindow.xaml;WPFTestWindow.xaml;
 
-True
+False
 

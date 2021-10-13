@@ -22,9 +22,13 @@ namespace MyUWPApp
     /// </summary>
     public sealed partial class BlankPage2 : Page
     {
+        public static Button OpenWPFWindowBtn { get; set; }
         public BlankPage2()
         {
             this.InitializeComponent();
+
+            //assign the controls to their respective variables so that it can be accessed in the wpf window and controlled from there
+            OpenWPFWindowBtn = WPFWindowOpenBtn;
         }
     }
 }

@@ -25,6 +25,7 @@ namespace MyUWPApp
         public static Button ShowFoldersBtn { get; set; }
         public static ListView FoldersListView { get; set; }
         public static Button ShowMsgBoxBtn { get; set; }
+        public static Button ClearListViewBtn { get; set; }
         public BlankPage1()
         {
             this.InitializeComponent();
@@ -33,6 +34,7 @@ namespace MyUWPApp
             ShowFoldersBtn = FoldersShowBtn;
             FoldersListView = ListFoldersView;
             ShowMsgBoxBtn = ShowMessageBoxButton;
+            ClearListViewBtn = ListViewClearBtn;
 
         }
 

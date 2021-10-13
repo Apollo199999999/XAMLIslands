@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -23,42 +24,38 @@ namespace MyUWPApp
     public sealed partial class HostPage : Page
     {
         public static Frame frame { get; set; }
+
         public HostPage()
         {
             this.InitializeComponent();
 
             //assign the controls to their respective variables so that it can be accessed in the wpf window and controlled from there
             frame = contentFrame;
+
+            //set the NavView SelectedItem manually
+            NavView.SelectedItem = Page1;
         }
 
-        private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
-            if (args.IsSettingsInvoked)
+            //this part controls which page to navigate to, upon user selection of a new NavViewItem
+            if (NavView.SelectedItem == Page1)
+            {
+                contentFrame.Navigate(typeof(BlankPage1));
+            }
+            else if (NavView.SelectedItem == Page2)
+            {
+                contentFrame.Navigate(typeof(BlankPage2));
+            }
+            else if (NavView.SelectedItem == Page3)
+            {
+                contentFrame.Navigate(typeof(BlankPage3));
+            }
+            else if (NavView.SelectedItem == NavView.SettingsItem)
             {
                 contentFrame.Navigate(typeof(SettingsPage));
             }
-            else
-            {
-                switch (args.InvokedItem)
-                {
-                    case "Blank Page 1":
-                        contentFrame.Navigate(typeof(BlankPage1));
-                        break;
-                    case "Blank Page 2":
-                        contentFrame.Navigate(typeof(BlankPage2));
-                        break;
-                    case "Blank Page 3":
-                        contentFrame.Navigate(typeof(BlankPage3));
-                        break;
-
-                }
-            }
-        }
-
-        private void Page_Loaded(object sender, RoutedEventArgs e)
-        {
-            //navigate to blankpage1
-            NavView.SelectedItem = Page1;
+           
         }
     }
 }

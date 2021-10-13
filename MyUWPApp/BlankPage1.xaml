@@ -10,8 +10,9 @@
 
     <Grid>
         <TextBlock Text="Sample Page 1" FontWeight="Bold" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button x:Name="FoldersShowBtn" Content="Show folders in C:\" Margin="10,101,0,0" VerticalAlignment="Top"/>
-        <ListView x:Name="ListFoldersView" Margin="10,139,10,0" VerticalAlignment="Top" Height="300"/>
-        <Button x:Name="ShowMessageBoxButton" Content="Show MessageBox (WPF)" Margin="10,444,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="FoldersShowBtn" Content="Show folders in C:\" Margin="10,118,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="ListFoldersView" Margin="10,174,10,10"/>
+        <Button x:Name="ShowMessageBoxButton" Content="Show MessageBox (WPF)" Margin="293,118,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ListViewClearBtn" Content="Clear ListView" Margin="167,118,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
