@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.RootTypes>
-    <RootType FullName="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication">
-      <RootProperty Name="Resources" />
-    </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.XamlControlsResources" />
+    <RootType FullName="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
@@ -33,12 +30,12 @@
     <RootType FullName="MyUWPApp.BlankPage1" />
     <RootType FullName="MyUWPApp.BlankPage2" />
     <RootType FullName="MyUWPApp.BlankPage3" />
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Content" />
       <RootProperty Name="Icon" />
     </RootType>

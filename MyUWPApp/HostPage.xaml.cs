@@ -13,7 +13,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using MUXC = Microsoft.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -24,20 +23,20 @@ namespace MyUWPApp
     /// </summary>
     public sealed partial class HostPage : Page
     {
-        public static Frame ContentFrame { get; set; }
+        public static Frame frame { get; set; }
 
         public HostPage()
         {
             this.InitializeComponent();
 
             //assign the controls to their respective variables so that it can be accessed in the wpf window and controlled from there
-            ContentFrame = contentFrame;
+            frame = contentFrame;
 
             //set the NavView SelectedItem manually
             NavView.SelectedItem = Page1;
         }
 
-        private void NavView_SelectionChanged(MUXC.NavigationView sender, MUXC.NavigationViewSelectionChangedEventArgs args)
+        private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
             //this part controls which page to navigate to, upon user selection of a new NavViewItem
             if (NavView.SelectedItem == Page1)

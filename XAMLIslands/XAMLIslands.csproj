@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Platforms>AnyCPU;x64</Platforms>
     <AssetTargetFallback>uap10.0.19041</AssetTargetFallback>
     <StartupObject>Program</StartupObject>
   </PropertyGroup>
