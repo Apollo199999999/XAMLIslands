@@ -124,3 +124,7 @@ C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\XAMLIslands.dll
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\XAMLIslands.pdb
 C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\obj\x64\Debug\netcoreapp3.1\XAMLIslands.genruntimeconfig.cache
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\UWPClassLibrary.dll
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\UWPClassLibrary.pdb
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\UWPClassLibrary.pri
+C:\Users\fligh\source\repos\XAMLIslands\XAMLIslands\bin\x64\Debug\netcoreapp3.1\Microsoft.UI.Xaml.Markup.winmd

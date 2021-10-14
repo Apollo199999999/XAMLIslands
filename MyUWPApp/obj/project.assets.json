@@ -365,6 +365,20 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.19041/win10-arm": {
@@ -879,6 +893,20 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
         }
       }
     },
@@ -1396,6 +1424,20 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.19041/win10-arm64-aot": {
@@ -1912,6 +1954,20 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.19041/win10-x64": {
@@ -2426,6 +2482,20 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
         }
       }
     },
@@ -2943,6 +3013,20 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.19041/win10-x86": {
@@ -3457,6 +3541,20 @@
         },
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
+        }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
         }
       }
     },
@@ -3973,6 +4071,20 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "UWPClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.19041",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.12",
+          "Microsoft.UI.Xaml": "2.7.0"
+        },
+        "compile": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UWPClassLibrary.dll": {}
         }
       }
     }
@@ -8473,13 +8585,19 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "UWPClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../UWPClassLibrary/UWPClassLibrary.csproj",
+      "msbuildProject": "../UWPClassLibrary/UWPClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.19041": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.13",
       "Microsoft.Toolkit.Win32.UI.XamlApplication >= 6.1.3",
-      "Microsoft.UI.Xaml >= 2.7.0"
+      "Microsoft.UI.Xaml >= 2.7.0",
+      "UWPClassLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8515,7 +8633,11 @@
       },
       "frameworks": {
         "uap10.0.19041": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\UWPClassLibrary\\UWPClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\UWPClassLibrary\\UWPClassLibrary.csproj"
+            }
+          }
         }
       }
     },

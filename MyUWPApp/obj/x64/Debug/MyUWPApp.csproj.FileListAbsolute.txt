@@ -65,3 +65,9 @@ C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\qualifiers.txt.in
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\UWPClassLibrary.dll
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\UWPClassLibrary.pdb
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\UWPClassLibrary.pri
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\MyUWPApp.csproj.AssemblyReference.cache
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\UWPClassLibrary.pri.xml
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
