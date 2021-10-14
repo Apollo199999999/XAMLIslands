@@ -446,16 +446,6 @@
         "runtime": {
           "bin/placeholder/MyUWPApp.dll": {}
         }
-      },
-      "UWPClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.19041",
-        "compile": {
-          "bin/placeholder/UWPClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UWPClassLibrary.dll": {}
-        }
       }
     }
   },
@@ -959,19 +949,13 @@
       "type": "project",
       "path": "../MyUWPApp/MyUWPApp.csproj",
       "msbuildProject": "../MyUWPApp/MyUWPApp.csproj"
-    },
-    "UWPClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "../UWPClassLibrary/UWPClassLibrary.csproj",
-      "msbuildProject": "../UWPClassLibrary/UWPClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Toolkit.Wpf.UI.XamlHost >= 6.1.2",
       "Microsoft.VCRTForwarders.140 >= 1.0.6",
-      "MyUWPApp >= 1.0.0",
-      "UWPClassLibrary >= 1.0.0"
+      "MyUWPApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1008,9 +992,6 @@
           "projectReferences": {
             "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\MyUWPApp\\MyUWPApp.csproj": {
               "projectPath": "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\MyUWPApp\\MyUWPApp.csproj"
-            },
-            "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\UWPClassLibrary\\UWPClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\fligh\\source\\repos\\XAMLIslands\\UWPClassLibrary\\UWPClassLibrary.csproj"
             }
           }
         }

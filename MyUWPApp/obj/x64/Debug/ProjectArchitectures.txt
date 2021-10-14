@@ -1,2 +1,1 @@
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\MyUWPApp.csproj;x64
-C:\Users\fligh\source\repos\XAMLIslands\UWPClassLibrary\UWPClassLibrary.csproj;x64

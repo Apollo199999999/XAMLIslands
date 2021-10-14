@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyUWPApp\MyUWPApp.csproj" />
-    <ProjectReference Include="..\UWPClassLibrary\UWPClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

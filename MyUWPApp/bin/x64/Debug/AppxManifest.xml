@@ -42,12 +42,6 @@
         <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
-    <Extension Category="windows.activatableClass.inProcessServer">
-      <InProcessServer>
-        <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
-      </InProcessServer>
-    </Extension>
   </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />

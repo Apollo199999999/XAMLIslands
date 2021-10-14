@@ -34,14 +34,8 @@
     <AppxPackagedFile Include="C:\Users\fligh\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\UWPClassLibrary\bin\x64\Debug\UWPClassLibrary.dll">
-      <PackagePath>UWPClassLibrary.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\.nuget\packages\microsoft.toolkit.win32.ui.xamlapplication\6.1.3\lib\uap10.0\Microsoft.Toolkit.Win32.UI.XamlHost.winmd">
       <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
-      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

@@ -11,7 +11,6 @@
           "Microsoft.Toolkit.Wpf.UI.XamlHost": "6.1.2",
           "Microsoft.VCRTForwarders.140": "1.0.6",
           "MyUWPApp": "1.0.0",
-          "UWPClassLibrary": "1.0.0",
           "Microsoft.Toolkit.Win32.UI.XamlHost": "255.255.255.255"
         },
         "runtime": {
@@ -366,11 +365,6 @@
           "MyUWPApp.exe": {}
         }
       },
-      "UWPClassLibrary/1.0.0": {
-        "runtime": {
-          "UWPClassLibrary.dll": {}
-        }
-      },
       "Microsoft.Toolkit.Win32.UI.XamlHost/255.255.255.255": {
         "runtime": {
           "Microsoft.Toolkit.Win32.UI.XamlHost.winmd": {
@@ -459,11 +453,6 @@
       "hashPath": "system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
     },
     "MyUWPApp/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UWPClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
