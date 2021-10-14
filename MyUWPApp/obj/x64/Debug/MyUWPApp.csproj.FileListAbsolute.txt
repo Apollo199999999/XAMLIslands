@@ -65,3 +65,4 @@ C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\SettingsPage.xaml
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\BlankPage2.xbf
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\BlankPage3.xbf
 C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\SettingsPage.xbf
+C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
