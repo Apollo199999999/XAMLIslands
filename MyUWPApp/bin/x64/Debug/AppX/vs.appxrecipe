@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-13T15:59:03.397</Modified>
+      <Modified>2021-10-14T08:09:39.001</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\MyUWPApp.exe">
       <PackagePath>entrypoint\MyUWPApp.exe</PackagePath>
-      <Modified>2021-10-13T15:59:01.684</Modified>
+      <Modified>2021-10-14T08:09:35.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\.nuget\packages\microsoft.toolkit.win32.ui.xamlapplication\6.1.3\runtimes\win10-x64\native\Microsoft.Toolkit.Win32.UI.XamlHost.dll">
       <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.dll</PackagePath>
@@ -90,31 +90,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\MyUWPApp.xr.xml">
       <PackagePath>MyUWPApp.xr.xml</PackagePath>
-      <Modified>2021-10-13T15:47:40.838</Modified>
+      <Modified>2021-10-14T08:07:45.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.494</Modified>
+      <Modified>2021-10-14T08:09:34.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.495</Modified>
+      <Modified>2021-10-14T06:52:05.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\BlankPage2.xbf">
       <PackagePath>BlankPage2.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.495</Modified>
+      <Modified>2021-10-14T06:52:05.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\BlankPage3.xbf">
       <PackagePath>BlankPage3.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.495</Modified>
+      <Modified>2021-10-14T06:52:05.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\HostPage.xbf">
       <PackagePath>HostPage.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.496</Modified>
+      <Modified>2021-10-14T08:09:34.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\SettingsPage.xbf">
       <PackagePath>SettingsPage.xbf</PackagePath>
-      <Modified>2021-10-13T15:59:01.496</Modified>
+      <Modified>2021-10-14T06:52:05.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-12T15:49:43.019</Modified>
+      <Modified>2021-10-14T08:09:37.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fligh\source\repos\XAMLIslands\MyUWPApp\bin\x64\Debug\Core\MyUWPApp.exe">
       <PackagePath>MyUWPApp.exe</PackagePath>
-      <Modified>2021-10-13T15:59:03.388</Modified>
+      <Modified>2021-10-14T08:09:38.975</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
