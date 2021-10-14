@@ -250,18 +250,6 @@
           }
         }
       },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -585,18 +573,6 @@
         "build": {
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.props": {},
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
-        }
-      },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1100,18 +1076,6 @@
         "build": {
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.props": {},
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
-        }
-      },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -1618,18 +1582,6 @@
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2134,18 +2086,6 @@
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2647,18 +2587,6 @@
         "build": {
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.props": {},
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
-        }
-      },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -3165,18 +3093,6 @@
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3678,18 +3594,6 @@
         "build": {
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.props": {},
           "build/Microsoft.Toolkit.Win32.UI.XamlApplication.targets": {}
-        }
-      },
-      "Microsoft.UI.Xaml/2.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.UI.Xaml.props": {}
         }
       },
       "NETStandard.Library/2.0.3": {
@@ -4387,37 +4291,6 @@
         "tools/symbols/arm64/Microsoft.Toolkit.Win32.UI.XamlHost.pdb",
         "tools/symbols/x64/Microsoft.Toolkit.Win32.UI.XamlHost.pdb",
         "tools/symbols/x86/Microsoft.Toolkit.Win32.UI.XamlHost.pdb"
-      ]
-    },
-    "Microsoft.UI.Xaml/2.7.0": {
-      "sha512": "dB4im13tfmMgL/V3Ei+3kD2rUF+/lTxAmR4gjJ45l577eljHfdo/KUrxpq/3I1Vp6e5GCDG1evDaEGuDxypLMg==",
-      "type": "package",
-      "path": "microsoft.ui.xaml/2.7.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Common.targets",
-        "build/Microsoft.UI.Xaml.props",
-        "build/MicrosoftUIXamlVersion.props",
-        "build/native/Microsoft.UI.Xaml.targets",
-        "buildTransitive/Common.targets",
-        "buildTransitive/Microsoft.UI.Xaml.props",
-        "buildTransitive/MicrosoftUIXamlVersion.props",
-        "lib/uap10.0/Design/Microsoft.UI.Xaml.Design.dll",
-        "lib/uap10.0/Microsoft.UI.Xaml.pri",
-        "lib/uap10.0/Microsoft.UI.Xaml.winmd",
-        "lib/uap10.0/Microsoft.UI.Xaml.xml",
-        "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
-        "license.txt",
-        "microsoft.ui.xaml.2.7.0.nupkg.sha512",
-        "microsoft.ui.xaml.nuspec",
-        "readme.txt",
-        "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.7.appx",
-        "tools/AppX/arm64/Release/Microsoft.UI.Xaml.2.7.appx",
-        "tools/AppX/x64/Release/Microsoft.UI.Xaml.2.7.appx",
-        "tools/AppX/x86/Release/Microsoft.UI.Xaml.2.7.appx",
-        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -8478,8 +8351,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.19041": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
-      "Microsoft.Toolkit.Win32.UI.XamlApplication >= 6.1.3",
-      "Microsoft.UI.Xaml >= 2.7.0"
+      "Microsoft.Toolkit.Win32.UI.XamlApplication >= 6.1.3"
     ]
   },
   "packageFolders": {
@@ -8529,10 +8401,6 @@
           "Microsoft.Toolkit.Win32.UI.XamlApplication": {
             "target": "Package",
             "version": "[6.1.3, )"
-          },
-          "Microsoft.UI.Xaml": {
-            "target": "Package",
-            "version": "[2.7.0, )"
           }
         },
         "imports": [
