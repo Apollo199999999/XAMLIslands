@@ -6,17 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
      <Grid>
-        <NavigationView x:Name="NavView" SelectionChanged="NavView_SelectionChanged">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Content="Blank Page 1" Icon="AllApps" x:Name="Page1"/>
-                <NavigationViewItem Content="Blank Page 2" Icon="Comment" x:Name="Page2"/>
-                <NavigationViewItem Content="Blank Page 3" Icon="Home" x:Name="Page3"/>
-            </NavigationView.MenuItems>
+        <muxc:NavigationView x:Name="NavView" SelectionChanged="NavView_SelectionChanged">
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem Content="Blank Page 1" Icon="AllApps" x:Name="Page1"/>
+                <muxc:NavigationViewItem Content="Blank Page 2" Icon="Comment" x:Name="Page2"/>
+                <muxc:NavigationViewItem Content="Blank Page 3" Icon="Home" x:Name="Page3"/>
+            </muxc:NavigationView.MenuItems>
             <Frame x:FieldModifier="public" x:Name="contentFrame"/>
-        </NavigationView>
+        </muxc:NavigationView>
         
     </Grid>
 </Page>

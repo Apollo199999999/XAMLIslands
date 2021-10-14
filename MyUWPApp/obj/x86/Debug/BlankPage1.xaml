@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MyUWPApp.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyUWPApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Text="Sample Page 1" FontWeight="Bold" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='2' x:Name="FoldersShowBtn" Content="Show folders in C:\" Margin="10,118,0,0" VerticalAlignment="Top"/>
+        <ListView x:ConnectionId='3' x:Name="ListFoldersView" Margin="10,174,10,10"/>
+        <Button x:ConnectionId='4' x:Name="ShowMessageBoxButton" Content="Show MessageBox (WPF)" Margin="293,118,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='5' x:Name="ListViewClearBtn" Content="Clear ListView" Margin="167,118,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

@@ -32,40 +32,42 @@ namespace XAMLIslands
 
         private void WindowsXamlHost_ChildChanged(object sender, EventArgs e)
         {
-            HostPage.frame.Navigated += Frame_Navigated;
+            HostPage.ContentFrame.Navigated += Frame_Navigated;
 
             //manually force the contentframe in the UWP NavView to navigate to all pages to force the event handler to trigger and initialize all the pages
-            HostPage.frame.Navigate(typeof(BlankPage1));
-            HostPage.frame.Navigate(typeof(BlankPage2));
-            HostPage.frame.Navigate(typeof(BlankPage3));
-            HostPage.frame.Navigate(typeof(SettingsPage));
+            HostPage.ContentFrame.Navigate(typeof(BlankPage1));
+            HostPage.ContentFrame.Navigate(typeof(BlankPage2));
+            HostPage.ContentFrame.Navigate(typeof(BlankPage3));
+            HostPage.ContentFrame.Navigate(typeof(SettingsPage));
 
             //navigate back to BlankPage1 
-            HostPage.frame.Navigate(typeof(BlankPage1));
+            HostPage.ContentFrame.Navigate(typeof(BlankPage1));
         }
 
         private void Frame_Navigated(object sender, Windows.UI.Xaml.Navigation.NavigationEventArgs e)
         {
             //place all UWP control event handlers here
 
-            if(HostPage.frame.SourcePageType == typeof(BlankPage1))
+            if(HostPage.ContentFrame.SourcePageType == typeof(BlankPage1))
             {
                 //UWP BlankPage1 Event Handlers
                 BlankPage1.ShowMsgBoxBtn.Click += ShowMsgBoxBtn_Click;
                 BlankPage1.ShowFoldersBtn.Click += ShowFoldersBtn_Click;
                 BlankPage1.ClearListViewBtn.Click += ClearListViewBtn_Click;
             }
-            else if (HostPage.frame.SourcePageType == typeof(BlankPage2))
+            else if (HostPage.ContentFrame.SourcePageType == typeof(BlankPage2))
             {
                 //UWP BlankPage2 Event Handlers
                 BlankPage2.OpenWPFWindowBtn.Click += OpenWPFWindowBtn_Click;
             }
-            else if (HostPage.frame.SourcePageType == typeof(BlankPage3))
+            else if (HostPage.ContentFrame.SourcePageType == typeof(BlankPage3))
             {
+                //UWP BlankPage3 Event Handlers
                 //...
             }
-            else if (HostPage.frame.SourcePageType == typeof(SettingsPage))
+            else if (HostPage.ContentFrame.SourcePageType == typeof(SettingsPage))
             {
+                //UWP SettingsPage Event Handlers
                 //...
             }
 
